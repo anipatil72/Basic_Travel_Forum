@@ -1,0 +1,125 @@
+.container
+{
+    max-width: 80%;
+    background-color: #b9fbc0;
+    padding: 34px;
+    margin: 23px auto;
+
+    font-family: sans-serif;
+
+    text-align: center;
+
+
+
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+}
+
+input,textarea
+{
+    width: 80%;
+    
+
+    margin: 11px;
+
+    padding: 7px;
+
+    font-size: 15px;
+
+    font-family: sans-serif;
+
+    /* border: 1.5px solid #99d98c; */
+    border: 1.5px solid #02c39a;
+
+    border-radius: 6px;
+
+    outline:  none;
+
+    
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+span div
+{
+    display: flex;
+    flex-direction: row;
+
+    /* justify-content: space-around; */
+    align-items: center;
+
+   
+
+    
+
+
+}
+
+.btn 
+{
+    margin-left: 10px;
+   color:#390099;
+}
+
+.bg
+{
+    width: 100%;
+
+    position: absolute;
+
+    z-index: -1;
+
+    opacity: 0.8;
+}
+
+.submitmsg
+{
+    color: #0d00a4;
+}
+
+button{
+
+    border: 1px solid #0e3e43;
+
+    padding: 6px 8px;
+
+    cursor: pointer;
+    border-radius: 4px;
+
+    background-color: #e1ecdb;
+
+    transition: background-color 150ms;
+
+}
+
+button:hover
+{
+    color: white;
+    background-color: #1265d8;
+}
+
